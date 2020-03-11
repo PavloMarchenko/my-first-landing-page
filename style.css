@@ -59,15 +59,16 @@ body{
     text-align: center;
 }
 
-section-c{
+#section-c{
     display: flex;
+    flex-direction: row;
 }
 
 #section-c div{
     padding: 20px;
 }
 
-#section-c .box-1 #section-c .box-3{
+#section-c .box-1, #section-c .box-3{
     background: #926239;
     color: #fff;
 }
